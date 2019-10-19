@@ -11,7 +11,7 @@ const fetchVideoInfo = require('youtube-info');
 const http2 = require('http2');
 
 ////////////////Wait///////////
-const token = "Mzc3NTU2Mjk5MDg2NTYxMjkw.DQBvFw.ShNCq5jR7jNCIkHsEuEGTYzZ__A";
+const token = "NjA1OTU1Njg2MzI4ODI3OTA0.Xap5ew.KeUFzcN6J8b0VCa8MQg1aEVkYC8";
 const w = ['https://cdn.discordapp.com/attachments/352756697833537547/385865093214371842/608639378.jpg',]
 
 
@@ -800,7 +800,7 @@ client.on('message', message => {
       if(!message.channel.guild) return message.reply('**:x: ما في منع النشر بالخاص**');
         if (!message.member.hasPermissions(['ADMINISTRATOR'])){
         message.delete()
-    return message.reply(`** غير مسموح بنشر انفايتات هنا :x: #جيش_مجد : ! **`)
+    return message.reply(`** غير مسموح بنشر انفايتات هنا :x: #لجمهوريه : ! **`)
     }
 }
 });
@@ -841,4 +841,4 @@ message.channel.sendFile(canvas.toBuffer());
 //-------------------------------------<التوكن و المفتاح
 
 var prefix = "<";
-client.login('Token');
+client.login('NjA1OTU1Njg2MzI4ODI3OTA0.Xap5ew.KeUFzcN6J8b0VCa8MQg1aEVkYC8');
